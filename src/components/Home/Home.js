@@ -1,9 +1,8 @@
-import Products from "./Products";
-
+import Products from "../Products/Products";
+import "./home.css"
 function Home() {
   return (
     <>
-      <h1>Hello from Home</h1>
       <Products />
     </>
   );

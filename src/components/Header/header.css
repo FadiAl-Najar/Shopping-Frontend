@@ -1,0 +1,38 @@
+.navbar {
+    background:#1976D2;
+     /* #34495e; */
+    position: relative;
+}
+
+.nav-fill .nav-item .nav-link, .nav-justified .nav-item .nav-link  {
+    border: none;
+    color: #FFFFFF;
+    position: relative;
+    font-size: 20px;
+    line-height: 50px;
+    z-index: 1;
+}
+
+.child_item::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #F5F5F5;
+    transform-origin: bottom right;
+    transition: transform 0.50s ease-out;
+  }
+  
+.child_item:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  @media (max-width: 480px) {
+    .pearant_item  {
+      flex-basis: 1;
+    }
+  }
