@@ -1,0 +1,32 @@
+
+.containerr {
+  /* display: flex; */
+  width: 100%;
+  background-color: #1976D2;
+  padding: 10px 40px;
+  color: aliceblue;  
+}
+.con_soc {
+  display: flex;
+}
+
+.con_soc h5 {
+  padding-left: 69px;
+}
+
+.parent_socialsec_email {
+  display: flex;
+}
+.sec_social {
+  margin-left: 70px;
+}
+.sec_social a{
+  display: block;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  color: aliceblue;
+}
+.sec_social a:hover {
+  color: chocolate;
+}

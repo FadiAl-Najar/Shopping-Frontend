@@ -22,17 +22,10 @@
     bottom: 0;
     left: 0;
     background-color: #F5F5F5;
-    transform-origin: bottom right;
     transition: transform 0.50s ease-out;
   }
   
 .child_item:hover::after {
     transform: scaleX(1);
-    transform-origin: bottom left;
-  }
-
-  @media (max-width: 480px) {
-    .pearant_item  {
-      flex-basis: 1;
-    }
+    position: absolute;
   }

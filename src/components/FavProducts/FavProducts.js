@@ -67,7 +67,7 @@ function FavProducts() {
                 <Card.Img className="img" variant="top" src={item.goods_img} />
                 <Card.Body className="d-flex flex-column">
                   <Card.Title>{item.goods_name}</Card.Title>
-                  <Card.Text>{item.amount}</Card.Text>
+                  <Card.Text>{item.amount}$</Card.Text>
                   
                 </Card.Body>
               </Card>
