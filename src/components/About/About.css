@@ -1,0 +1,18 @@
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.about-content img{
+    float: left;
+    margin-right: 20px;
+    max-width: 300px;
+    border-radius: 15px;
+}
+
+@media (max-width: 548px) {
+    img {
+        width: 150px;
+    }
+}

@@ -63,7 +63,7 @@ function Products() {
           product.map((item) => {
             return (
               <Col className="col-md-3 py-2" key={item.goods_id}>
-                <Card
+                <Card 
                   className="card h-100 d-flex flex-column"
                   key={item.goods_id}
                 >

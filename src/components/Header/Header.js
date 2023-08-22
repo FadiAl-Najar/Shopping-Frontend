@@ -5,7 +5,7 @@ function Header() {
   return (
     <Nav justify variant="tabs" defaultActiveKey="/home" className="navbar">
       <Nav.Item className="pearant_item">
-        <Nav.Link isActive className="child_item" href="/">
+        <Nav.Link className="child_item" href="/">
           Home
         </Nav.Link>
       </Nav.Item>

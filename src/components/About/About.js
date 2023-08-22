@@ -1,27 +1,18 @@
+import './About.css';
+
+
 function About() {
   return (
     <>
-      <div style={{ margin: "90px" }}>
+      <div className="main" style={{ maxWidth: "100%" }}>
         <div
           className="container"
-          style={{
-            maxWidth: "1200px",
-            margin: "0 auto",
-            padding: "2rem",
-            backgroundColor: "white",
-          }}
         >
-          <div className="about-content" style={{ overflow: "hidden" }}>
+          <div className="about-content" style={{ overflow: "hidden", margin: "90px" }}>
             <img
               src="https://img.freepik.com/premium-vector/online-shop-icon-neon-style-sign-illustration_189374-123.jpg?w=740"
               alt="About Us"
               className="about-image"
-              style={{
-                float: "left",
-                marginRight: "20px",
-                maxWidth: "300px",
-                borderRadius: "15px",
-              }}
             />  
             <p>
               Welcome to our Website, you can use this website as a reference to
