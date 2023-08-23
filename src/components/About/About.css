@@ -8,11 +8,37 @@
     float: left;
     margin-right: 20px;
     max-width: 300px;
+    height: auto;
+    display: block;
     border-radius: 15px;
 }
 
 @media (max-width: 548px) {
+    .container {
+        width: 100%;
+    }
     img {
         width: 150px;
+        height: auto;
+    }
+}
+
+@media (min-width: 347px) and (max-width: 547px) {
+    .container {
+        width: 100%;
+        height: auto;
+    }
+    img {
+        width: 100px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 347px) {
+    .container {
+        width: 100%;
+        height: auto;
+    }
+    img {
+        width: 50px;
     }
 }
